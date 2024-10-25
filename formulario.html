@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body style="background-color: beige;">
+    <h1>Aula de Formulário</h1>
+    <br>
+    <form>
+        <!--lEGENDA PARA NOME-->
+        <label for="campo_nome">Nome:</label><br>
+        <input id="campo_nome" type="text" placeholder="Digite seu nome" required>
+        <br>
+        <!--lEGENDA PARA EMAIL-->
+        <br> <label for="campo_email">Email:</label><br>
+        <input id="campo_email" type="email" placeholder="Digite seu email" required>
+        <br>
+        <!--lEGENDA PARA SENHA-->
+        <br> <label for="campo_senha">senha:</label><br>
+        <input id="campo_senha" type="password" placeholder="Digite sua senha" required>
+        <br><br>
+        <!--lEGENDA PARA ENVIAR-->
+        <!--lEGENDA typo radio-->
+        <h2>Animal de estimação</h2>
+        <input type="radio" id="dog" name="Animal" value="Cachorro">
+        <label for="dog">Cachorro</label>
+        <br>
+        <br>
+        <input type="radio" id="cat" name="Animal" value="Gato">
+        <label for="cat">Gato</label>
+        <br>
+        <br>
+        <input type="radio" id="bird" name="Animal" value="Passarinho">
+        <label for="bird">Passarinho</label>
+        <br>
+        <br>
+        <h2>O que vc tem em casa?</h2>
+        <input id="item1" type="checkbox" name="item1" value="TV">
+        <label for="item1">TV</label>
+        <br>
+        <br>
+        <input id="item2" type="checkbox" name="item2" value="Geladeira">
+        <label for="item2">Geladeira</label>
+        <br>
+        <br>
+        <input id="item3" type="checkbox" name="item3" value="Ar condicionado">
+        <label for="item3">Ar condicionado</label>
+        <br>
+        <br>
+        <h2>Escolha uma cor</h2>
+        <select name="cores">
+            <option selected disabled value="">Selecione uma cor</option>
+            <option value="Vermelho">Vermelho</option>
+            <option value="azul">azul</option>
+            <option value="Verde">Verde</option>
+            <option value="rosa">rosa</option>
+            <option value="amarelo">amarelo</option>
+
+        </select>
+        <br>
+        <br>
+        <h2>Escreva sua sugestão</h2>
+        <textarea name="sugestão" placeholder="Digite sua sugestão aqui" rows="10" cols="55"></textarea>
+        <br>
+        <br>
+        <input type="submit" value="Enviar Formulário">
+        <br>
+        <br>
+
+    </form><br>
+    <hr>
+
+
+
+
+
+
+
+    <a href="aula1.html">Voltar a pagina inicial</a>
+</body>
+
+</html>
